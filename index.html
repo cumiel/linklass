@@ -24,6 +24,19 @@
         }
         h1 span { color: #6B5B8D; }
         .date { color: #7A8593; font-size: 14px; margin-bottom: 24px; }
+        .nav-links {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 24px;
+            font-size: 13px;
+        }
+        .nav-links a {
+            color: #4A5566;
+            text-decoration: none;
+            border-bottom: 1px dashed #C4C8D0;
+            padding-bottom: 1px;
+        }
+        .nav-links a:hover { color: #1B2838; border-color: #1B2838; }
         .lang-switch {
             display: flex;
             gap: 8px;
@@ -112,6 +125,10 @@
     <div class="container">
         <h1>Lin<span>klass</span> Privacy Policy</h1>
         <p class="date">Last updated: May 11, 2026</p>
+
+        <div class="nav-links">
+            <a href="./terms.html">이용약관 / Terms of Service →</a>
+        </div>
 
         <div class="lang-switch">
             <a href="#" id="btn-ko" class="active" onclick="switchLang('ko'); return false;">한국어</a>
