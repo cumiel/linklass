@@ -2,16 +2,9 @@
 
 Public-facing privacy policy for the Linklass app.
 
-- 🇰🇷 Korean: [index.md](./index.md)
-- 🇺🇸 English: [en.md](./en.md)
+→ Live: https://cumiel.github.io/linklass-privacy/
 
-## GitHub Pages 설정
-
-1. GitHub에 이 저장소를 push (예: `linklass-privacy`)
-2. 저장소 → Settings → Pages
-3. **Source**: `Deploy from a branch`
-4. **Branch**: `main` / Folder: `/ (root)`
-5. Save → 1~2분 후 `https://{username}.github.io/{repo-name}/`에서 접근 가능
+단일 HTML 파일 (`index.html`)에 한국어/영문이 모두 포함되어 있고, 토글 버튼으로 전환 가능합니다.
 
 ## 사용처
 
